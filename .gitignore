@@ -1,30 +1,22 @@
-##############################
-## Java
-##############################
-.mtj.tmp/
+/logs
 *.class
+/target
+/build
+*/build
+/out
+.gradle
+classes
+# Package Files
 *.jar
+!/libs/
 *.war
-##############################
-## Maven
-##############################
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-pom.xml.bak
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-##############################
-## IntelliJ
-##############################
-out/
-.idea/
-.idea_modules/
+*.ear
+# Intellij IDEA files
+.idea
 *.iml
 *.ipr
 *.iws
+# rp properties
+**/reportportal.properties
+*.lock
+*.sync
