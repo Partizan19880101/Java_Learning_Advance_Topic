@@ -13,7 +13,6 @@ public class DeamonExample {
         userThread.start();
         deamonThread.start();
         System.out.println("Main Thread ends");
-
     }
 }
 
